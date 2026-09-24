@@ -1,10 +1,5 @@
 const db = require("../config/db");
 
-/*
-=========================================================
-ADMIN DASHBOARD
-=========================================================
-*/
 const getAdminDashboard = async (req, res) => {
   try {
     // TOTAL CUSTOMERS
